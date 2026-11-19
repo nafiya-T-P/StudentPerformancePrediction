@@ -1,0 +1,12 @@
+matplotlib
+numpy
+openpyxl
+pandas
+plotly
+python-dotenv
+scikit-learn
+shap
+streamlit
+xgboost
+imbalanced-learn
+

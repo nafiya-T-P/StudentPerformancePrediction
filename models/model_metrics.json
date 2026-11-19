@@ -1,0 +1,1 @@
+{"Model Name": "Random Forest", "Accuracy": 1.0, "Precision": 1.0, "Recall": 1.0, "F1-Score": 1.0, "CV F1 Mean": 0.992, "CV F1 Std": 0.016, "Confusion Matrix": [[21, 0], [0, 33]]}

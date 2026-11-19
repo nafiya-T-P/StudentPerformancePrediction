@@ -1,0 +1,713 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+/* Central Variable Declarations */
+:root {
+    --primary: #2563EB;
+    --primary-hover: #1D4ED8;
+    --bg-main: #F8FAFC;
+    --card-bg: #FFFFFF;
+    --text-dark: #1E293B;
+    --text-muted: #64748B;
+    --success: #16A34A;
+    --danger: #DC2626;
+    --warning: #D97706;
+    --border: #E2E8F0;
+}
+
+html, body, [class*="css"] {
+    font-family: 'Outfit', sans-serif !important;
+}
+
+/* ==============================================================================
+   SECTION A — HIDE ALL STREAMLIT DEFAULT UI ELEMENTS
+   ============================================================================== */
+
+/* Hide Streamlit default header bar */
+header[data-testid="stHeader"] {
+    display: none !important;
+}
+
+/* Hide default footer */
+footer {
+    display: none !important;
+}
+
+/* Hide hamburger menu */
+#MainMenu {
+    display: none !important;
+}
+
+/* Hide "Deploy" button top right */
+.stDeployButton {
+    display: none !important;
+}
+
+/* Hide "Made with Streamlit" */
+[data-testid="stToolbar"] {
+    display: none !important;
+}
+
+/* FIX 3F — CONTENT PADDING FOR FIXED TOPBAR AND FOOTER */
+.main .block-container {
+    padding-top: 4rem !important;
+    padding-bottom: 5rem !important;
+    max-width: 1200px !important;
+    animation: pageIn 0.3s ease forwards !important;
+}
+
+/* Sidebar content starts below topbar */
+[data-testid="stSidebar"] > div:first-child {
+    padding-top: 60px !important;
+}
+
+/* Main Viewport & Scrollbar */
+.main {
+    background-color: #f4f6fb !important;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb {
+    background: #1a73e8;
+    border-radius: 3px;
+}
+
+/* ==============================================================================
+   SECTION C — MAKE SIDEBAR LOOK LIKE AN APP DRAWER
+   ============================================================================== */
+
+/* Sidebar no border, full height */
+[data-testid="stSidebar"] {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    min-width: 280px !important;
+    max-width: 320px !important;
+    min-height: 100vh !important;
+    background: linear-gradient(
+        180deg, #0d1117 0%, #161b22 100%
+    ) !important;
+    border-right: 1px solid rgba(255,255,255,0.07) !important;
+}
+
+[data-testid="stSidebar"][aria-expanded="true"] {
+    transform: translateX(0) !important;
+    display: block !important;
+}
+
+
+[data-testid="stSidebarContent"] {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    padding: 16px !important;
+}
+
+[data-testid="collapsedControl"] {
+    display: flex !important;
+    visibility: visible !important;
+    z-index: 100000 !important;
+}
+
+[data-testid="collapsedControl"] button {
+    color: #ffffff !important;
+    background: rgba(255,255,255,0.1) !important;
+    border: 1px solid rgba(255,255,255,0.2) !important;
+    border-radius: 8px !important;
+    cursor: pointer !important;
+}
+
+/* Sidebar labels */
+[data-testid="stSidebar"] label {
+    color: rgba(255,255,255,0.7) !important;
+    font-size: 0.82rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.04em !important;
+    text-transform: uppercase !important;
+    margin-bottom: 4px !important;
+}
+
+/* FIX 1 — STUDENT ID INPUT TEXT INVISIBLE */
+
+/* Student ID input — white text on dark background */
+    /* ── SIDEBAR ALL INPUTS BASE FIX ── */
+    [data-testid="stSidebar"] input {
+        background-color: #1e2235 !important;
+        color: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+        caret-color: #60a5fa !important;
+        border: 1.5px solid rgba(255,255,255,0.15)
+                !important;
+        border-radius: 10px !important;
+        font-size: 0.95rem !important;
+    }
+
+    [data-testid="stSidebar"]
+    [data-testid="stTextInput"] input {
+        background-color: #1e2235 !important;
+        color: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+        caret-color: #60a5fa !important;
+    }
+
+    [data-testid="stSidebar"]
+    [data-testid="stNumberInput"] input {
+        background-color: #1e2235 !important;
+        color: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+        caret-color: #60a5fa !important;
+    }
+
+    /* ── BROWSER AUTOFILL OVERRIDE ── */
+    [data-testid="stSidebar"] input:-webkit-autofill,
+    [data-testid="stSidebar"]
+    input:-webkit-autofill:hover,
+    [data-testid="stSidebar"]
+    input:-webkit-autofill:focus,
+    [data-testid="stSidebar"]
+    input:-webkit-autofill:active {
+        -webkit-box-shadow: 0 0 0px 1000px
+            #1e2235 inset !important;
+        -webkit-text-fill-color: #ffffff !important;
+        caret-color: #60a5fa !important;
+        transition: background-color 5000s
+                    ease-in-out 0s !important;
+    }
+
+    [data-testid="stSidebar"] input::placeholder {
+        color: rgba(255,255,255,0.25) !important;
+        -webkit-text-fill-color:
+            rgba(255,255,255,0.25) !important;
+    }
+
+    [data-testid="stSidebar"] input:focus {
+        border-color: #1a73e8 !important;
+        background-color: #1a2540 !important;
+        -webkit-text-fill-color: #ffffff !important;
+        box-shadow: 0 0 0 3px rgba(26,115,232,0.25)
+                    !important;
+        outline: none !important;
+    }
+
+    [data-testid="stSidebar"]
+    [data-testid="stTextInput"] > div,
+    [data-testid="stSidebar"]
+    [data-testid="stTextInput"] > div > div,
+    [data-testid="stSidebar"]
+    [data-testid="stNumberInput"] > div,
+    [data-testid="stSidebar"]
+    [data-testid="stNumberInput"] > div > div {
+        background-color: transparent !important;
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
+
+/* Number input +/- buttons */
+[data-testid="stSidebar"] button[data-testid="stNumberInputStepUp"],
+[data-testid="stSidebar"] button[data-testid="stNumberInputStepDown"] {
+    background: rgba(255,255,255,0.08) !important;
+    border: none !important;
+    color: white !important;
+    border-radius: 6px !important;
+}
+
+/* Submit button — full app style */
+[data-testid="stSidebar"] .stButton > button[kind="primary"] {
+    background: linear-gradient(
+        135deg, #1a73e8 0%, #1557b0 100%
+    ) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 12px !important;
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.04em !important;
+    padding: 14px !important;
+    width: 100% !important;
+    box-shadow: 0 4px 15px rgba(26,115,232,0.35) !important;
+    margin-top: 8px !important;
+}
+
+/* FIX 3G — SIDEBAR SUBMIT BUTTON HOVER LIFT */
+[data-testid="stSidebar"] .stButton > button {
+    transition: transform 0.15s ease,
+                box-shadow 0.15s ease !important;
+    will-change: transform !important;
+}
+
+[data-testid="stSidebar"] .stButton > button:hover {
+    transform: translateY(-2px) !important;
+}
+
+[data-testid="stSidebar"] .stButton > button:active {
+    transform: translateY(0px) !important;
+}
+
+/* Clear button */
+[data-testid="stSidebar"] button[key="clear_btn"] {
+    background: rgba(231,76,60,0.08) !important;
+    color: #ef4444 !important;
+    border: 1px solid #ef4444 !important;
+    border-radius: 10px !important;
+    font-size: 0.85rem !important;
+    font-weight: 600 !important;
+    width: 100% !important;
+    padding: 10px !important;
+}
+
+[data-testid="stSidebar"] button[key="clear_btn"]:hover {
+    background: rgba(231,76,60,0.15) !important;
+    border-color: #ef4444 !important;
+}
+
+/* ==============================================================================
+   SECTION D — MAKE MAIN PANEL LOOK LIKE AN APP SCREEN
+   ============================================================================= */
+
+/* Main background — subtle app gray */
+.main {
+    background-color: #f4f6fb !important;
+}
+
+/* Cards — app card style */
+div[data-testid="stVerticalBlock"] > div[style*="flex-direction: column"] > div[data-testid="stVerticalBlock"] {
+    background: #ffffff !important;
+    border-radius: 16px !important;
+    padding: 20px !important;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06) !important;
+    margin-bottom: 16px !important;
+}
+
+/* FIX 3E — PILL TAB ACTIVE STATE NOT APPLYING */
+
+/* Force remove default tab underline highlight */
+.stTabs [data-baseweb="tab-highlight"] {
+    display: none !important;
+    background: transparent !important;
+}
+
+/* Tab list container — pill group */
+.stTabs [data-baseweb="tab-list"] {
+    background: #ffffff !important;
+    border-radius: 12px !important;
+    padding: 4px !important;
+    gap: 2px !important;
+    border: 1px solid #e3eafc !important;
+    width: fit-content !important;
+}
+
+/* Individual tab — unselected */
+.stTabs button[data-baseweb="tab"] {
+    background: transparent !important;
+    border-radius: 8px !important;
+    color: #555 !important;
+    font-weight: 600 !important;
+    font-size: 0.88rem !important;
+    padding: 7px 20px !important;
+    border: none !important;
+    transition: all 0.2s ease !important;
+}
+
+/* Selected tab — solid blue pill */
+.stTabs button[data-baseweb="tab"][aria-selected="true"] {
+    background: #1a73e8 !important;
+    color: #ffffff !important;
+    border-radius: 8px !important;
+    box-shadow: 0 2px 8px rgba(26,115,232,0.3) !important;
+}
+
+/* Tab hover */
+.stTabs button[data-baseweb="tab"]:hover {
+    background: rgba(26,115,232,0.08) !important;
+    color: #1a73e8 !important;
+}
+
+/* Metric cards */
+[data-testid="metric-container"] {
+    background: #ffffff !important;
+    border: 1px solid #e8ecf0 !important;
+    border-radius: 14px !important;
+    padding: 16px 20px !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04) !important;
+}
+
+[data-testid="stMetricValue"] {
+    font-size: 1.6rem !important;
+    font-weight: 800 !important;
+    color: #1a237e !important;
+}
+
+[data-testid="stMetricLabel"] {
+    font-size: 0.78rem !important;
+    font-weight: 600 !important;
+    color: #888 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.05em !important;
+}
+
+/* Expander — app card style */
+[data-testid="stExpander"] {
+    background: #ffffff !important;
+    border: 1px solid #e8ecf0 !important;
+    border-radius: 14px !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04) !important;
+    overflow: hidden !important;
+}
+
+[data-testid="stExpander"] summary {
+    background: #f8faff !important;
+    padding: 14px 20px !important;
+    font-weight: 700 !important;
+    color: #1a237e !important;
+    font-size: 0.95rem !important;
+    border-radius: 14px !important;
+}
+
+/* Alert boxes — rounded app style */
+[data-testid="stAlert"] {
+    border-radius: 12px !important;
+    border: none !important;
+    font-size: 0.88rem !important;
+    font-weight: 500 !important;
+}
+
+/* Dataframe */
+[data-testid="stDataFrame"] {
+    border-radius: 12px !important;
+    overflow: hidden !important;
+    border: 1px solid #e8ecf0 !important;
+}
+
+[data-testid="stDataFrame"] th {
+    background: #1a237e !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-size: 0.82rem !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.04em !important;
+}
+
+[data-testid="stDataFrame"] td {
+    font-size: 0.88rem !important;
+    color: #333 !important;
+}
+
+/* Download button */
+[data-testid="stDownloadButton"] > button {
+    background: linear-gradient(
+        135deg, #1a73e8, #1557b0
+    ) !important;
+    color: white !important;
+    border-radius: 10px !important;
+    border: none !important;
+    font-weight: 600 !important;
+    padding: 10px 20px !important;
+    width: 100% !important;
+    box-shadow: 0 3px 10px rgba(26,115,232,0.3) !important;
+}
+
+/* Spinner */
+[data-testid="stSpinner"] {
+    background: rgba(26,115,232,0.05) !important;
+    border-radius: 12px !important;
+    padding: 20px !important;
+}
+
+/* Page transition feel */
+@keyframes pageIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: translateY(0);    }
+}
+
+/* ==============================================================================
+   CUSTOM CARD & LAYOUT STYLES RETAINED
+   ============================================================================== */
+
+.hero-banner {
+    background-color: #FFFFFF;
+    color: var(--text-dark);
+    padding: 35px 40px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    border: 1px solid var(--border);
+    position: relative;
+}
+
+.hero-banner h1 {
+    margin: 0 0 10px 0;
+    font-size: 2.3rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--text-dark) !important;
+}
+
+.hero-banner p {
+    margin: 0;
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.glass-card {
+    background-color: var(--card-bg) !important;
+    border-radius: 12px !important;
+    padding: 24px 28px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+    border: 1px solid var(--border) !important;
+    margin-bottom: 22px;
+}
+
+.glass-card h3 {
+    margin: 0 0 12px 0;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+.glass-card p {
+    margin: 0 0 8px 0;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+}
+
+.nav-card {
+    background-color: var(--card-bg) !important;
+    border: 1px solid var(--border) !important;
+    border-radius: 12px !important;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease !important;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+}
+
+.nav-card:hover {
+    border-color: var(--primary) !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05) !important;
+    background-color: var(--card-bg) !important;
+}
+
+.nav-card .icon {
+    font-size: 2.2rem;
+    margin-bottom: 12px;
+    display: inline-block;
+}
+
+.nav-card h4 {
+    margin: 0 0 6px 0;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--text-dark) !important;
+}
+
+.nav-card p {
+    margin: 0;
+    font-size: 0.82rem;
+    color: var(--text-muted) !important;
+    line-height: 1.4;
+}
+
+.metric-row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 22px;
+    flex-wrap: wrap;
+}
+
+.metric-card {
+    flex: 1;
+    min-width: 180px;
+    background-color: var(--card-bg) !important;
+    border-radius: 12px !important;
+    padding: 20px 18px;
+    text-align: center;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+    border-top: 4px solid var(--primary) !important;
+    border-left: 1px solid var(--border) !important;
+    border-right: 1px solid var(--border) !important;
+    border-bottom: 1px solid var(--border) !important;
+}
+
+.metric-card .mc-label {
+    font-size: 0.78rem;
+    color: var(--text-muted) !important;
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+}
+
+.metric-card .mc-value {
+    font-size: 1.95rem;
+    font-weight: 700;
+    color: var(--text-dark) !important;
+    line-height: 1.15;
+}
+
+.metric-card .mc-sub {
+    font-size: 0.76rem;
+    color: var(--text-muted) !important;
+    margin-top: 6px;
+}
+
+.rec-card {
+    background-color: #EFF6FF !important;
+    border-left: 4px solid var(--primary) !important;
+    padding: 14px 18px;
+    border-radius: 0 8px 8px 0 !important;
+    margin-bottom: 12px;
+    font-size: 0.92rem;
+    color: var(--text-dark) !important;
+    line-height: 1.6;
+    border-top: 1px solid #DBEAFE !important;
+    border-right: 1px solid #DBEAFE !important;
+    border-bottom: 1px solid #DBEAFE !important;
+}
+
+.warn-card {
+    background-color: #FEF3C7 !important;
+    border-left: 4px solid var(--warning) !important;
+    padding: 14px 18px;
+    border-radius: 0 8px 8px 0 !important;
+    margin-bottom: 12px;
+    font-size: 0.92rem;
+    color: #78350F !important;
+    line-height: 1.6;
+    border-top: 1px solid #FDE68A !important;
+    border-right: 1px solid #FDE68A !important;
+    border-bottom: 1px solid #FDE68A !important;
+}
+
+.risk-badge {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 6px !important;
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin-right: 8px;
+}
+
+.risk-high { background-color: #FEE2E2 !important; color: var(--danger) !important; border: 1px solid #FCA5A5 !important; }
+.risk-medium { background-color: #FEF3C7 !important; color: #D97706 !important; border: 1px solid #FDE68A !important; }
+.risk-low { background-color: #DCFCE7 !important; color: var(--success) !important; border: 1px solid #86EFAC !important; }
+
+.conf-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 6px !important;
+    font-weight: 500;
+    font-size: 0.78rem;
+}
+
+.conf-high { background-color: #DBEAFE !important; color: var(--primary) !important; }
+.conf-medium { background-color: #F1F5F9 !important; color: #475569 !important; }
+.conf-low { background-color: #F1F5F9 !important; color: #94A3B8 !important; }
+
+.progress-container {
+    background-color: var(--border);
+    border-radius: 8px;
+    height: 10px;
+    margin: 6px 0 10px 0;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    border-radius: 8px;
+    transition: width 0.6s ease;
+}
+
+.retmint-btn > button {
+    background-color: #1a73e8 !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    width: 100% !important;
+}
+
+.retmint-btn > button:hover {
+    background-color: #1557b0 !important;
+}
+
+.prediction-card {
+    animation: pageIn 0.6s ease forwards;
+}
+
+.shap-panel {
+    animation: pageIn 0.4s ease forwards;
+}
+
+/* Force sidebar always visible and expanded removed */
+
+
+
+[data-testid="stSidebar"] button[data-testid="stBaseButton-headerNoPadding"] {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: absolute !important;
+    top: 14px !important;
+    right: 12px !important;
+    z-index: 999999 !important;
+    background: rgba(255,255,255,0.1) !important;
+    border-radius: 8px !important;
+    border: 1px solid rgba(255,255,255,0.2) !important;
+    color: #ffffff !important;
+    width: 32px !important;
+    height: 32px !important;
+    padding: 4px !important;
+    cursor: pointer !important;
+}
+
+[data-testid="stSidebar"] button[data-testid="stBaseButton-headerNoPadding"]:hover {
+    background: rgba(255,255,255,0.2) !important;
+    color: #ffffff !important;
+}
+
+[data-testid="stSidebar"] button[data-testid="stBaseButton-headerNoPadding"] svg {
+    fill: #ffffff !important;
+    color: #ffffff !important;
+    width: 16px !important;
+    height: 16px !important;
+}
+
+/* ── FORCE SIDEBAR VISIBLE ── */
+[data-testid="stSidebar"] {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    min-width: 280px !important;
+    max-width: 320px !important;
+    min-height: 100vh !important;
+    transform: none !important;
+    background: linear-gradient(
+        180deg, #0d1117 0%, #161b22 100%
+    ) !important;
+    border-right: 1px solid rgba(255,255,255,0.07) !important;
+}
+
+[data-testid="stSidebarContent"] {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    padding: 16px !important;
+}
+
+section[data-testid="stSidebar"] > div:first-child {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    padding-top: 60px !important;
+}
+

@@ -1,0 +1,269 @@
+studentid,studentname,attendance,eligibility,examscore,iamarks,studyhours,assignmentcompletion,motivation,discussions,finalgrade,StudentID,Probability,Prediction,Academic_Risk,Confidence_Level
+23BCAICD001,A P Nandana Shaji,75.0,Eligible,76.0,38.0,20,70,1,1,0,23BCAICD001,67.9,Pass,Medium Risk,Medium
+23BCAICD002,Abdullah Ibnu Madani,77.0,Eligible,46.0,23.0,12,68,1,1,2,23BCAICD002,51.4,Pass,Medium Risk,Low
+23BCAICD003,Abel Antony K S,77.0,Eligible,40.0,20.0,13,74,0,1,2,23BCAICD003,45.9,Fail,Medium Risk,Low
+23BCAICD004,Abhay V,25.0,Not Eligible,28.0,14.0,12,50,0,0,3,23BCAICD004,15.0,Fail,High Risk,High
+23BCAICD005,Abhinav K,0.0,Not Eligible,0.0,0.0,2,50,0,0,3,23BCAICD005,15.0,Fail,High Risk,High
+23BCAICD006,Abhinav R Nambiar,80.0,Eligible,62.0,31.0,16,73,1,0,1,23BCAICD006,59.3,Pass,Medium Risk,Low
+23BCAICD007,Abhishek  K K,75.0,Eligible,68.0,34.0,21,66,1,1,1,23BCAICD007,60.4,Pass,Medium Risk,Medium
+23BCAICD008,Abhishek Satheesh Nair,85.0,Eligible,74.0,37.0,21,81,1,1,1,23BCAICD008,74.5,Pass,Low Risk,Medium
+23BCAICD009,Abhin Vinod,75.0,Eligible,56.0,28.0,14,69,1,0,2,23BCAICD009,55.3,Pass,Medium Risk,Low
+23BCAICD010,Adharv Shyam,77.0,Eligible,72.0,36.0,20,70,1,0,1,23BCAICD010,68.1,Pass,Medium Risk,Medium
+23BCAICD011,Adil Abid N K P,20.0,Not Eligible,0.0,0.0,1,50,0,1,3,23BCAICD011,15.0,Fail,High Risk,High
+23BCAICD012,Afsana Jabeen Pulipra,75.0,Eligible,46.0,23.0,11,64,0,1,2,23BCAICD012,50.5,Pass,Medium Risk,Low
+23BCAICD013,Aiswarya C K,80.0,Eligible,86.0,43.0,22,78,2,1,0,23BCAICD013,80.2,Pass,Low Risk,High
+23BCAICD014,Ajhad V K,75.0,Eligible,44.0,22.0,7,69,1,0,2,23BCAICD014,44.6,Fail,Medium Risk,Low
+23BCAICD015,Alena Latheesh,80.0,Eligible,84.0,42.0,17,85,1,0,0,23BCAICD015,74.9,Pass,Low Risk,Medium
+23BCAICD016,Alexin Jo Mathew,77.0,Eligible,46.0,23.0,11,61,0,0,2,23BCAICD016,46.8,Fail,Medium Risk,Low
+23BCAICD017,Alfaiz P J,75.0,Eligible,40.0,20.0,9,76,0,0,2,23BCAICD017,42.3,Fail,Medium Risk,Low
+23BCAICD018,Anaina Vadakkanchery,85.0,Eligible,92.0,46.0,24,73,2,0,0,23BCAICD018,85.0,Pass,Low Risk,High
+23BCAICD019,Anandu S Vaidyan,75.0,Eligible,40.0,20.0,9,64,0,0,2,23BCAICD019,43.1,Fail,Medium Risk,Low
+23BCAICD020,Anirudh Urothummal Kuyyatil,82.0,Eligible,58.0,29.0,12,76,0,0,2,23BCAICD020,58.3,Pass,Medium Risk,Low
+23BCAICD021,Anusha M,97.0,Eligible,78.0,39.0,23,89,2,1,0,23BCAICD021,81.8,Pass,Low Risk,High
+23BCAICD022,Arjun Saji,75.0,Eligible,40.0,20.0,11,62,0,1,2,23BCAICD022,41.3,Fail,Medium Risk,Low
+23BCAICD023,Aromal K S,75.0,Eligible,40.0,20.0,11,64,0,0,2,23BCAICD023,42.3,Fail,Medium Risk,Low
+23BCAICD024,Arshad K,75.0,Eligible,40.0,20.0,8,63,0,1,2,23BCAICD024,42.7,Fail,Medium Risk,Low
+23BCAICD025,Aryan Vimod,75.0,Eligible,64.0,32.0,15,67,1,0,1,23BCAICD025,60.0,Pass,Medium Risk,Medium
+23BCAICD027,Ashiyana Hiba,77.0,Eligible,50.0,25.0,14,73,0,0,2,23BCAICD027,53.2,Pass,Medium Risk,Low
+23BCAICD028,Asiya A,77.0,Eligible,60.0,30.0,13,72,1,1,1,23BCAICD028,56.7,Pass,Medium Risk,Low
+23BCAICD029,Aswanth M O,80.0,Eligible,82.0,41.0,21,73,1,1,0,23BCAICD029,75.5,Pass,Low Risk,High
+23BCAICD030,Aswin Raj M,92.0,Eligible,84.0,42.0,19,90,2,1,0,23BCAICD030,83.4,Pass,Low Risk,High
+23BCAICD031,Aysha Nuhaila,77.0,Eligible,70.0,35.0,17,74,1,0,1,23BCAICD031,62.8,Pass,Medium Risk,Medium
+23BCAICD032,Fadil Thajudeen,75.0,Eligible,46.0,23.0,11,70,0,0,2,23BCAICD032,48.3,Fail,Medium Risk,Low
+23BCAICD033,Fareez Jemri K K,75.0,Eligible,40.0,20.0,16,68,0,0,2,23BCAICD033,41.5,Fail,Medium Risk,Low
+23BCAICD034,Fariz U,77.0,Eligible,40.0,20.0,11,62,0,1,2,23BCAICD034,41.9,Fail,Medium Risk,Low
+23BCAICD035,Fathima Amna,75.0,Eligible,70.0,35.0,15,68,2,1,1,23BCAICD035,67.2,Pass,Medium Risk,Medium
+23BCAICD036,Fathima Niha,77.0,Eligible,60.0,30.0,18,74,1,0,1,23BCAICD036,61.3,Pass,Medium Risk,Medium
+23BCAICD037,Fathima Rahda V,75.0,Eligible,40.0,20.0,8,68,0,0,2,23BCAICD037,45.4,Fail,Medium Risk,Low
+23BCAICD038,Fathima Sherin,75.0,Eligible,60.0,30.0,16,69,0,1,1,23BCAICD038,56.3,Pass,Medium Risk,Low
+23BCAICD039,Fathimath Nazima P K,75.0,Eligible,60.0,30.0,11,70,1,0,1,23BCAICD039,55.1,Pass,Medium Risk,Low
+23BCAICD040,Fathimath Nihma,78.0,Eligible,62.0,31.0,13,78,1,0,1,23BCAICD040,61.5,Pass,Medium Risk,Medium
+23BCAICD041,Gokul Krishna K M,75.0,Eligible,46.0,23.0,13,63,1,0,2,23BCAICD041,47.3,Fail,Medium Risk,Low
+23BCAICD042,Gokul Vinod Mangalath,82.0,Eligible,74.0,37.0,21,79,2,1,1,23BCAICD042,68.5,Pass,Medium Risk,Medium
+23BCAICD043,K C Muhamed Naseem Bin Najeeb,85.0,Eligible,54.0,27.0,15,74,1,0,2,23BCAICD043,58.3,Pass,Medium Risk,Low
+23BCAICD044,K V Muhammed Ameen,77.0,Eligible,64.0,32.0,16,70,1,1,1,23BCAICD044,58.5,Pass,Medium Risk,Low
+23BCAICD045,Karthika Manoharan,75.0,Eligible,46.0,23.0,12,72,1,0,2,23BCAICD045,50.2,Pass,Medium Risk,Low
+23BCAICD046,Keerthi K,75.0,Eligible,80.0,40.0,16,77,1,1,0,23BCAICD046,70.1,Pass,Low Risk,Medium
+23BCAICD047,Kithu Manoj,82.0,Eligible,82.0,41.0,19,82,1,1,0,23BCAICD047,77.4,Pass,Low Risk,High
+23BCAICD048,Liyya Mareeha,77.0,Eligible,74.0,37.0,18,80,1,1,1,23BCAICD048,67.2,Pass,Medium Risk,Medium
+23BCAICD049,Mahammad Thoufeeq,75.0,Eligible,48.0,24.0,16,67,0,0,2,23BCAICD049,49.2,Fail,Medium Risk,Low
+23BCAICD050,Malavika Rajesh,77.0,Eligible,66.0,33.0,18,75,1,1,1,23BCAICD050,63.0,Pass,Medium Risk,Medium
+23BCAICD051,Minshaj Ibrahim M,77.0,Eligible,54.0,27.0,10,68,0,0,2,23BCAICD051,52.4,Pass,Medium Risk,Low
+23BCAICD052,Mohamed Rifan P,75.0,Eligible,50.0,25.0,14,69,1,0,2,23BCAICD052,53.3,Pass,Medium Risk,Low
+23BCAICD053,Mohamed Saweban Jabbar,28.0,Not Eligible,0.0,0.0,2,50,0,1,3,23BCAICD053,15.0,Fail,High Risk,High
+23BCAICD054,Mohammad Afraz,75.0,Eligible,46.0,23.0,11,67,0,0,2,23BCAICD054,50.3,Pass,Medium Risk,Low
+23BCAICD055,Mohammed Abshar,75.0,Eligible,60.0,30.0,17,72,0,0,1,23BCAICD055,59.9,Pass,Medium Risk,Low
+23BCAICD057,Mohammed Ashraf,92.0,Eligible,74.0,37.0,21,80,1,0,1,23BCAICD057,76.4,Pass,Low Risk,High
+23BCAICD058,Mohammed El Fizan K K,83.0,Eligible,56.0,28.0,17,84,0,1,2,23BCAICD058,61.2,Pass,Medium Risk,Medium
+23BCAICD059,Mohammed Fayis Pilakkal,75.0,Eligible,50.0,25.0,11,62,0,0,2,23BCAICD059,48.0,Fail,Medium Risk,Low
+23BCAICD060,Mohammed Hisham K,75.0,Eligible,40.0,20.0,11,59,1,0,2,23BCAICD060,41.7,Fail,Medium Risk,Low
+23BCAICD061,Mohammed Kunhi U P P,89.0,Eligible,44.0,22.0,13,81,0,0,2,23BCAICD061,50.6,Pass,Medium Risk,Low
+23BCAICD062,Mohammed Mahshooq,86.0,Eligible,74.0,37.0,21,83,2,1,1,23BCAICD062,71.8,Pass,Low Risk,Medium
+23BCAICD063,Mohammed Muneeb,90.0,Eligible,50.0,25.0,12,81,1,1,2,23BCAICD063,57.3,Pass,Medium Risk,Low
+23BCAICD064,Mohammed Raeed,75.0,Eligible,90.0,45.0,22,78,1,0,0,23BCAICD064,77.1,Pass,Low Risk,High
+23BCAICD065,Mohemmed Razi,86.0,Eligible,84.0,42.0,18,81,2,0,0,23BCAICD065,81.8,Pass,Low Risk,High
+23BCAICD066,Mohammed Shan Sooppiyamakkanakath,75.0,Eligible,40.0,20.0,8,61,0,0,2,23BCAICD066,42.6,Fail,Medium Risk,Low
+23BCAICD067,Muhammad Rijaz Schemnad,83.0,Eligible,62.0,31.0,18,75,1,1,1,23BCAICD067,61.6,Pass,Medium Risk,Medium
+23BCAICD068,Muhammed Abdul Gafoor,79.0,Eligible,66.0,33.0,20,70,1,0,1,23BCAICD068,64.0,Pass,Medium Risk,Medium
+23BCAICD069,Muhammad Afnan,75.0,Eligible,70.0,35.0,18,76,0,0,1,23BCAICD069,62.3,Pass,Medium Risk,Medium
+23BCAICD070,Muhammed Fidhil K C,76.0,Eligible,60.0,30.0,18,69,0,0,1,23BCAICD070,59.8,Pass,Medium Risk,Low
+23BCAICD071,Muhammed Fazin T K,75.0,Eligible,60.0,30.0,17,65,1,1,1,23BCAICD071,54.9,Pass,Medium Risk,Low
+23BCAICD072,Muhammed Jamsheed V.,90.0,Eligible,46.0,23.0,11,75,0,0,2,23BCAICD072,58.1,Pass,Medium Risk,Low
+23BCAICD073,Muhammed Kanif Jamsheed,81.0,Eligible,60.0,30.0,17,75,0,0,1,23BCAICD073,62.1,Pass,Medium Risk,Medium
+23BCAICD074,Muhammed Minhal Mishab  K V,75.0,Eligible,40.0,20.0,15,62,0,0,2,23BCAICD074,41.7,Fail,Medium Risk,Low
+23BCAICD075,Muhammed Mishal P,90.0,Eligible,94.0,47.0,23,82,2,1,0,23BCAICD075,85.8,Pass,Low Risk,High
+23BCAICD076,Muhammad Nihal,79.0,Eligible,40.0,20.0,15,69,0,0,2,23BCAICD076,47.4,Fail,Medium Risk,Low
+23BCAICD077,Muhammad Razeen T C,84.0,Eligible,80.0,40.0,14,81,1,0,0,23BCAICD077,77.2,Pass,Low Risk,High
+23BCAICD078,Muhammed Rishan K M,87.0,Eligible,92.0,46.0,25,81,2,1,0,23BCAICD078,87.3,Pass,Low Risk,High
+23BCAICD079,Muhammed Sahim Tharique,75.0,Eligible,40.0,20.0,12,63,0,0,2,23BCAICD079,45.1,Fail,Medium Risk,Low
+23BCAICD080,Muhammed Shinan M K,75.0,Eligible,70.0,35.0,17,72,1,1,1,23BCAICD080,61.9,Pass,Medium Risk,Medium
+23BCAICD081,Muhamed Sinan,75.0,Eligible,40.0,20.0,12,58,0,0,2,23BCAICD081,42.7,Fail,Medium Risk,Low
+23BCAICD082,Muhammed Sinan,75.0,Eligible,70.0,35.0,13,64,1,0,1,23BCAICD082,62.2,Pass,Medium Risk,Medium
+23BCAICD083,Muhammed Sinan T,92.0,Eligible,52.0,26.0,13,76,1,0,2,23BCAICD083,62.6,Pass,Medium Risk,Medium
+23BCAICD084,Muhammed Subair C H,75.0,Eligible,40.0,20.0,12,64,0,0,2,23BCAICD084,44.2,Fail,Medium Risk,Low
+23BCAICD085,Muhammed Umer Sufaidh K,86.0,Eligible,40.0,20.0,15,74,0,0,2,23BCAICD085,48.0,Fail,Medium Risk,Low
+23BCAICD086,Muhammed Yasar K M C,86.0,Eligible,46.0,23.0,11,81,0,0,2,23BCAICD086,50.6,Pass,Medium Risk,Low
+23BCAICD087,Muhammad Ziyan V C,75.0,Eligible,40.0,20.0,9,69,0,0,2,23BCAICD087,42.4,Fail,Medium Risk,Low
+23BCAICD088,N U Irfan,94.0,Eligible,48.0,24.0,12,79,0,0,2,23BCAICD088,57.6,Pass,Medium Risk,Low
+23BCAICD089,Nanditha Krishna E M,81.0,Eligible,80.0,40.0,22,77,1,0,0,23BCAICD089,75.9,Pass,Low Risk,High
+23BCAICD090,Neeraj Poothatta Vadavathi,95.0,Eligible,86.0,43.0,22,83,2,1,0,23BCAICD090,86.5,Pass,Low Risk,High
+23BCAICD091,P C P Jazil,75.0,Eligible,40.0,20.0,10,65,0,0,2,23BCAICD091,45.8,Fail,Medium Risk,Low
+23BCAICD092,Rhidhik K S,83.0,Eligible,86.0,43.0,23,78,2,1,0,23BCAICD092,79.5,Pass,Low Risk,High
+23BCAICD093,Rihala Nasrin,86.0,Eligible,42.0,21.0,12,75,0,0,2,23BCAICD093,48.1,Fail,Medium Risk,Low
+23BCAICD094,Sarovar K,95.0,Eligible,80.0,40.0,23,83,2,1,0,23BCAICD094,82.8,Pass,Low Risk,High
+23BCAICD095,Sayooj T,75.0,Eligible,74.0,37.0,17,74,0,0,1,23BCAICD095,68.9,Pass,Medium Risk,Medium
+23BCAICD096,Sayooj V,79.0,Eligible,56.0,28.0,14,79,0,1,2,23BCAICD096,57.1,Pass,Medium Risk,Low
+23BCAICD097,Shahasad Sha Ali,75.0,Eligible,60.0,30.0,15,68,1,1,1,23BCAICD097,59.1,Pass,Medium Risk,Low
+23BCAICD098,Shahmil Shan M C,75.0,Eligible,70.0,35.0,14,73,1,1,1,23BCAICD098,64.5,Pass,Medium Risk,Medium
+23BCAICD099,Shekha Shanavas,75.0,Eligible,44.0,22.0,13,69,0,0,2,23BCAICD099,46.4,Fail,Medium Risk,Low
+23BCAICD100,Shiyas Mohammed,87.0,Eligible,44.0,22.0,13,72,0,0,2,23BCAICD100,51.9,Pass,Medium Risk,Low
+23BCAICD101,Shuhaib Abdulla,86.0,Eligible,56.0,28.0,15,77,1,1,2,23BCAICD101,57.4,Pass,Medium Risk,Low
+23BCAICD102,Sreenath K P,75.0,Eligible,60.0,30.0,15,69,1,1,1,23BCAICD102,55.1,Pass,Medium Risk,Low
+23BCAICD103,Sunha Fathima K P,90.0,Eligible,74.0,37.0,15,83,2,1,1,23BCAICD103,72.0,Pass,Low Risk,Medium
+23BCAICD104,Suzana Sehanaz,76.0,Eligible,70.0,35.0,17,68,2,1,1,23BCAICD104,65.8,Pass,Medium Risk,Medium
+23BCAICD105,Swalih Bin Hameed,75.0,Eligible,44.0,22.0,11,66,0,0,2,23BCAICD105,45.2,Fail,Medium Risk,Low
+23BCAICD106,Ummer Shamil P,75.0,Eligible,50.0,25.0,11,69,0,1,2,23BCAICD106,50.6,Pass,Medium Risk,Low
+23BCAICD107,Vishnu Kuniyil Santhosh,75.0,Eligible,90.0,45.0,22,82,1,0,0,23BCAICD107,80.9,Pass,Low Risk,High
+23BCAICD108,Zanin Rasheed,75.0,Eligible,40.0,20.0,12,70,0,0,2,23BCAICD108,42.0,Fail,Medium Risk,Low
+23BCAICD110,Abdul Anfal,75.0,Eligible,40.0,20.0,16,76,0,0,2,23BCAICD110,43.0,Fail,Medium Risk,Low
+23BCAICD111,Abdul Fasheen,75.0,Eligible,40.0,20.0,12,61,0,0,2,23BCAICD111,45.0,Fail,Medium Risk,Low
+23BCAICD112,Abdul Mirza,75.0,Eligible,40.0,20.0,12,69,0,0,2,23BCAICD112,41.9,Fail,Medium Risk,Low
+23BCAICD113,Abdul Mufeez,75.0,Eligible,52.0,26.0,14,68,0,0,2,23BCAICD113,49.4,Fail,Medium Risk,Low
+23BCAICD114,Abdul Sameeh,75.0,Eligible,40.0,20.0,7,76,0,0,2,23BCAICD114,42.2,Fail,Medium Risk,Low
+23BCAICD115,Abdul Vasith Rahman M,78.0,Eligible,52.0,26.0,14,65,0,0,2,23BCAICD115,51.4,Pass,Medium Risk,Low
+23BCAICD116,Abhinand R Pramod,78.0,Eligible,56.0,28.0,15,66,1,1,2,23BCAICD116,58.8,Pass,Medium Risk,Low
+23BCAICD117,Abhinav A,75.0,Eligible,66.0,33.0,23,67,1,1,1,23BCAICD117,63.5,Pass,Medium Risk,Medium
+23BCAICD118,Abhin C,75.0,Eligible,58.0,29.0,15,58,1,1,2,23BCAICD118,56.9,Pass,Medium Risk,Low
+23BCAICD119,Abin Kurinheri,78.0,Eligible,58.0,29.0,16,68,1,1,2,23BCAICD119,59.8,Pass,Medium Risk,Low
+23BCAICD120,Adish K,13.0,Not Eligible,0.0,0.0,2,50,0,0,3,23BCAICD120,15.0,Fail,High Risk,High
+23BCAICD121,Adithkrishna T V,75.0,Eligible,46.0,23.0,10,67,1,0,2,23BCAICD121,45.8,Fail,Medium Risk,Low
+23BCAICD122,Adithya P M,92.0,Eligible,82.0,41.0,23,87,2,1,0,23BCAICD122,83.8,Pass,Low Risk,High
+23BCAICD123,Adithyan C,75.0,Eligible,74.0,37.0,21,81,0,0,1,23BCAICD123,67.5,Pass,Medium Risk,Medium
+23BCAICD124,Advyth Sunesh,75.0,Eligible,40.0,20.0,13,70,0,0,2,23BCAICD124,45.3,Fail,Medium Risk,Low
+23BCAICD125,Afran Ahmad,75.0,Eligible,40.0,20.0,9,62,0,0,2,23BCAICD125,45.9,Fail,Medium Risk,Low
+23BCAICD126,Afthab Ahamed Ali,75.0,Eligible,40.0,20.0,15,61,0,0,2,23BCAICD126,42.4,Fail,Medium Risk,Low
+23BCAICD127,Ahamed Rahid,75.0,Eligible,40.0,20.0,8,67,0,1,2,23BCAICD127,41.2,Fail,Medium Risk,Low
+23BCAICD128,Ahammed Mohammed Rafeed,75.0,Eligible,44.0,22.0,14,59,0,1,2,23BCAICD128,44.7,Fail,Medium Risk,Low
+23BCAICD129,Aishath Ruksana,75.0,Eligible,84.0,42.0,26,83,1,1,0,23BCAICD129,73.9,Pass,Low Risk,Medium
+23BCAICD130,Aishwarya Rani,92.0,Eligible,66.0,33.0,15,88,1,0,1,23BCAICD130,72.1,Pass,Low Risk,Medium
+23BCAICD131,Aiswarya Anil K,75.0,Eligible,40.0,20.0,10,63,0,0,2,23BCAICD131,45.7,Fail,Medium Risk,Low
+23BCAICD132,Akash Pradeep,75.0,Eligible,52.0,26.0,14,59,0,0,2,23BCAICD132,48.9,Fail,Medium Risk,Low
+23BCAICD133,Akmal,75.0,Eligible,40.0,20.0,10,72,0,0,2,23BCAICD133,43.6,Fail,Medium Risk,Low
+23BCAICD134,Aleena Suresh,98.0,Eligible,96.0,48.0,20,92,2,1,0,23BCAICD134,92.0,Pass,Low Risk,High
+23BCAICD135,Alima Ziyan,75.0,Eligible,50.0,25.0,14,73,1,0,2,23BCAICD135,48.8,Fail,Medium Risk,Low
+23BCAICD136,Amal Babu. B,75.0,Eligible,40.0,20.0,9,57,0,0,2,23BCAICD136,41.2,Fail,Medium Risk,Low
+23BCAICD137,Amal M S,75.0,Eligible,54.0,27.0,16,65,1,1,2,23BCAICD137,52.3,Pass,Medium Risk,Low
+23BCAICD138,Amarnath S,75.0,Eligible,40.0,20.0,9,65,0,0,2,23BCAICD138,46.2,Fail,Medium Risk,Low
+23BCAICD139,Amina Nikkath Naaz,75.0,Eligible,48.0,24.0,17,67,1,1,2,23BCAICD139,48.0,Fail,Medium Risk,Low
+23BCAICD140,Amreen Fathima,88.0,Eligible,80.0,40.0,18,80,2,1,0,23BCAICD140,78.1,Pass,Low Risk,High
+23BCAICD141,Aniz Mohammad Ali,75.0,Eligible,78.0,39.0,19,76,1,1,0,23BCAICD141,71.3,Pass,Low Risk,Medium
+23BCAICD142,Asrith K V,75.0,Eligible,42.0,21.0,14,60,1,0,2,23BCAICD142,44.1,Fail,Medium Risk,Low
+23BCAICD143,Ashwin Krishna M,75.0,Eligible,52.0,26.0,11,67,0,0,2,23BCAICD143,54.7,Pass,Medium Risk,Low
+23BCAICD144,Aswin Krishna P R,75.0,Eligible,50.0,25.0,14,68,1,1,2,23BCAICD144,53.3,Pass,Medium Risk,Low
+23BCAICD145,Ayisha Shuha,92.0,Eligible,88.0,44.0,25,89,2,1,0,23BCAICD145,84.1,Pass,Low Risk,High
+23BCAICD146,Aysha Ansira,75.0,Eligible,40.0,20.0,7,69,0,0,2,23BCAICD146,43.5,Fail,Medium Risk,Low
+23BCAICD148,Aysha Sahala,75.0,Eligible,54.0,27.0,15,62,1,1,2,23BCAICD148,52.1,Pass,Medium Risk,Low
+23BCAICD149,Azka Erum,75.0,Eligible,56.0,28.0,15,61,1,1,2,23BCAICD149,53.4,Pass,Medium Risk,Low
+23BCAICD150,Azmal Ahmed P N,75.0,Eligible,40.0,20.0,13,71,1,1,2,23BCAICD150,40.7,Fail,Medium Risk,Low
+23BCAICD151,Azmeena,80.0,Eligible,88.0,44.0,19,80,1,1,0,23BCAICD151,80.3,Pass,Low Risk,High
+23BCAICD152,B B Muhammed Mufeed,75.0,Eligible,50.0,25.0,10,63,0,0,2,23BCAICD152,50.5,Pass,Medium Risk,Low
+23BCAICD153,Bahar Nazmin,75.0,Eligible,66.0,33.0,18,78,1,1,1,23BCAICD153,59.0,Pass,Medium Risk,Low
+23BCAICD154,Basila O P,97.0,Eligible,76.0,38.0,20,88,2,1,0,23BCAICD154,78.4,Pass,Low Risk,High
+23BCAICD155,Bujair M,75.0,Eligible,40.0,20.0,12,71,1,0,2,23BCAICD155,45.9,Fail,Medium Risk,Low
+23BCAICD156,Christy Joseph,75.0,Eligible,54.0,27.0,15,68,1,1,2,23BCAICD156,51.7,Pass,Medium Risk,Low
+23BCAICD157,Davood Hakim,75.0,Eligible,46.0,23.0,11,77,0,0,2,23BCAICD157,45.6,Fail,Medium Risk,Low
+23BCAICD158,Dheeraj M K,75.0,Eligible,42.0,21.0,12,74,0,0,2,23BCAICD158,44.8,Fail,Medium Risk,Low
+23BCAICD159,Faiza,75.0,Eligible,60.0,30.0,16,68,1,0,1,23BCAICD159,60.4,Pass,Medium Risk,Medium
+23BCAICD160,Fathima Afreen,75.0,Eligible,96.0,48.0,22,81,2,1,0,23BCAICD160,81.2,Pass,Low Risk,High
+23BCAICD161,Fathima Fida,75.0,Eligible,88.0,44.0,27,78,1,0,0,23BCAICD161,78.1,Pass,Low Risk,High
+23BCAICD162,Fathima Salwa,75.0,Eligible,86.0,43.0,23,81,1,0,0,23BCAICD162,77.3,Pass,Low Risk,High
+23BCAICD163,Fathima Thabashum,75.0,Eligible,54.0,27.0,11,63,0,1,2,23BCAICD163,51.7,Pass,Medium Risk,Low
+23BCAICD164,Fathimath Jaseela,75.0,Eligible,40.0,20.0,13,68,1,0,2,23BCAICD164,44.9,Fail,Medium Risk,Low
+23BCAICD165,Fathimath Rasmiya,75.0,Eligible,44.0,22.0,10,71,0,0,2,23BCAICD165,45.5,Fail,Medium Risk,Low
+23BCAICD166,Fathimath Shahina,75.0,Eligible,72.0,36.0,20,63,1,0,1,23BCAICD166,66.7,Pass,Medium Risk,Medium
+23BCAICD167,Fathimath Zakiya,75.0,Eligible,48.0,24.0,16,61,0,0,2,23BCAICD167,49.9,Fail,Medium Risk,Low
+23BCAICD168,Gagan,75.0,Eligible,66.0,33.0,15,60,2,0,1,23BCAICD168,61.9,Pass,Medium Risk,Medium
+23BCAICD169,Gauri A,78.0,Eligible,76.0,38.0,22,73,1,1,0,23BCAICD169,67.7,Pass,Medium Risk,Medium
+23BCAICD170,Geo James,0.0,Not Eligible,0.0,0.0,4,50,0,0,3,23BCAICD170,15.0,Fail,High Risk,High
+23BCAICD171,Gokul C,92.0,Eligible,60.0,30.0,18,88,1,0,1,23BCAICD171,64.9,Pass,Medium Risk,Medium
+23BCAICD172,Gourilakshmi U,92.0,Eligible,94.0,47.0,28,88,2,1,0,23BCAICD172,87.9,Pass,Low Risk,High
+23BCAICD173,Haafizah Khathija Wahab,88.0,Eligible,96.0,48.0,23,93,2,0,0,23BCAICD173,86.4,Pass,Low Risk,High
+23BCAICD174,Haleema Hafeefa,75.0,Eligible,92.0,46.0,21,68,2,0,0,23BCAICD174,80.4,Pass,Low Risk,High
+23BCAICD175,Hathim Rahman,75.0,Eligible,40.0,20.0,9,56,0,0,2,23BCAICD175,44.6,Fail,Medium Risk,Low
+23BCAICD176,Hiba Nafeesa,75.0,Eligible,54.0,27.0,12,68,1,1,2,23BCAICD176,50.4,Pass,Medium Risk,Low
+23BCAICD177,Hissa R N,75.0,Eligible,60.0,30.0,16,71,1,0,1,23BCAICD177,57.6,Pass,Medium Risk,Low
+23BCAICD178,Hizana Nazar,78.0,Eligible,86.0,43.0,22,76,2,1,0,23BCAICD178,75.6,Pass,Low Risk,High
+23BCAICD181,Iflah Sayed,75.0,Eligible,86.0,43.0,22,64,2,0,0,23BCAICD181,76.6,Pass,Low Risk,High
+23BCAICD182,K H Mohammad Farhan,75.0,Eligible,62.0,31.0,18,69,1,1,1,23BCAICD182,56.9,Pass,Medium Risk,Low
+23BCAICD183,K S Mahammad Naufal,75.0,Eligible,40.0,20.0,11,58,0,0,2,23BCAICD183,44.6,Fail,Medium Risk,Low
+23BCAICD184,Katheeja Haifa,75.0,Eligible,64.0,32.0,20,73,1,1,1,23BCAICD184,59.6,Pass,Medium Risk,Low
+23BCAICD185,Khatija Tanisha,75.0,Eligible,64.0,32.0,16,72,1,0,1,23BCAICD185,62.9,Pass,Medium Risk,Medium
+23BCAICD186,Khathija Sana,75.0,Eligible,54.0,27.0,21,63,1,1,2,23BCAICD186,51.1,Pass,Medium Risk,Low
+23BCAICD187,Kizra Iram,83.0,Eligible,68.0,34.0,19,74,1,0,1,23BCAICD187,66.1,Pass,Medium Risk,Medium
+23BCAICD188,Kowshik Shetty,75.0,Eligible,60.0,30.0,14,64,1,1,1,23BCAICD188,55.2,Pass,Medium Risk,Low
+23BCAICD189,Likhith Kumar A,75.0,Eligible,70.0,35.0,15,71,1,0,1,23BCAICD189,67.0,Pass,Medium Risk,Medium
+23BCAICD190,M A Akram Hussain,75.0,Eligible,52.0,26.0,15,72,1,0,2,23BCAICD190,54.2,Pass,Medium Risk,Low
+23BCAICD191,M Fathimathul Zaima,75.0,Eligible,50.0,25.0,13,62,1,1,2,23BCAICD191,49.0,Fail,Medium Risk,Low
+23BCAICD192,M Sahal Hasan,75.0,Eligible,42.0,21.0,14,68,0,1,2,23BCAICD192,45.9,Fail,Medium Risk,Low
+23BCAICD193,Mahammad Marzooq,75.0,Eligible,40.0,20.0,12,62,0,1,2,23BCAICD193,45.4,Fail,Medium Risk,Low
+23BCAICD194,Mahammad Muzammil K M,75.0,Eligible,40.0,20.0,11,61,0,0,2,23BCAICD194,43.8,Fail,Medium Risk,Low
+23BCAICD195,Mahammed Niyaz,75.0,Eligible,42.0,21.0,10,65,0,0,2,23BCAICD195,45.1,Fail,Medium Risk,Low
+23BCAICD196,Mahammad Thameez,75.0,Eligible,44.0,22.0,8,61,0,0,2,23BCAICD196,44.8,Fail,Medium Risk,Low
+23BCAICD197,Maimoonath Misriya K C,75.0,Eligible,50.0,25.0,12,64,1,1,2,23BCAICD197,48.1,Fail,Medium Risk,Low
+23BCAICD198,Mariyamma Murshida,75.0,Eligible,92.0,46.0,25,69,1,1,0,23BCAICD198,82.3,Pass,Low Risk,High
+23BCAICD199,Midhilaj P,75.0,Eligible,58.0,29.0,16,78,1,0,2,23BCAICD199,58.5,Pass,Medium Risk,Low
+23BCAICD200,Mohammad Afraz,75.0,Eligible,44.0,22.0,9,66,0,0,2,23BCAICD200,47.1,Fail,Medium Risk,Low
+23BCAICD201,Mohammad Shaman,75.0,Eligible,46.0,23.0,13,63,0,0,2,23BCAICD201,46.7,Fail,Medium Risk,Low
+23BCAICD202,Mohammad Zahid,75.0,Eligible,46.0,23.0,14,67,0,1,2,23BCAICD202,46.8,Fail,Medium Risk,Low
+23BCAICD203,Mohammed Afrad,75.0,Eligible,48.0,24.0,11,66,1,0,2,23BCAICD203,50.5,Pass,Medium Risk,Low
+23BCAICD204,Mohammed Amaan,87.0,Eligible,94.0,47.0,24,83,2,1,0,23BCAICD204,89.7,Pass,Low Risk,High
+23BCAICD205,Mohammad Anas,75.0,Eligible,40.0,20.0,11,68,0,0,2,23BCAICD205,45.8,Fail,Medium Risk,Low
+23BCAICD206,Mohammed Ashkar Ali,75.0,Eligible,40.0,20.0,8,69,0,0,2,23BCAICD206,45.2,Fail,Medium Risk,Low
+23BCAICD207,Mohammad Athik Niyaan,75.0,Eligible,40.0,20.0,12,62,0,0,2,23BCAICD207,44.4,Fail,Medium Risk,Low
+23BCAICD208,Mohammed Azeem,75.0,Eligible,52.0,26.0,15,65,1,0,2,23BCAICD208,49.4,Fail,Medium Risk,Low
+23BCAICD209,Mohammed Bathish,75.0,Eligible,42.0,21.0,14,64,0,1,2,23BCAICD209,42.9,Fail,Medium Risk,Low
+23BCAICD210,Mohammed Faraz,75.0,Eligible,46.0,23.0,15,55,1,1,2,23BCAICD210,50.1,Pass,Medium Risk,Low
+23BCAICD211,Mohammed Haris,75.0,Eligible,76.0,38.0,16,65,1,0,0,23BCAICD211,69.3,Pass,Medium Risk,Medium
+23BCAICD212,Mohammed Hisham,75.0,Eligible,40.0,20.0,9,72,0,0,2,23BCAICD212,40.6,Fail,Medium Risk,Low
+23BCAICD213,Mohammed Ismail Afnan,75.0,Eligible,44.0,22.0,13,74,0,0,2,23BCAICD213,43.9,Fail,Medium Risk,Low
+23BCAICD214,Mohammed Mayish,75.0,Eligible,54.0,27.0,16,67,1,1,2,23BCAICD214,54.3,Pass,Medium Risk,Low
+23BCAICD215,Mohammed Nafeel,75.0,Eligible,56.0,28.0,16,71,0,1,2,23BCAICD215,51.7,Pass,Medium Risk,Low
+23BCAICD216,Mohammed Naheem Bin Haris,75.0,Eligible,40.0,20.0,21,67,0,0,2,23BCAICD216,41.5,Fail,Medium Risk,Low
+23BCAICD217,Mohammed Naif,85.0,Eligible,68.0,34.0,19,93,1,1,1,23BCAICD217,68.4,Pass,Medium Risk,Medium
+23BCAICD218,Mohammed Nihal,75.0,Eligible,46.0,23.0,15,72,1,1,2,23BCAICD218,48.9,Fail,Medium Risk,Low
+23BCAICD219,Mohammed Saif,75.0,Eligible,44.0,22.0,15,65,1,1,2,23BCAICD219,47.2,Fail,Medium Risk,Low
+23BCAICD220,Mohammed Saraz,75.0,Eligible,52.0,26.0,16,63,1,1,2,23BCAICD220,50.2,Pass,Medium Risk,Low
+23BCAICD221,Mohammed Shahid,75.0,Eligible,40.0,20.0,11,57,0,1,2,23BCAICD221,44.8,Fail,Medium Risk,Low
+23BCAICD222,Mohammed Shakeel,78.0,Eligible,92.0,46.0,25,79,2,1,0,23BCAICD222,79.8,Pass,Low Risk,High
+23BCAICD223,Mohammed Shalik Latheef,75.0,Eligible,54.0,27.0,12,64,0,1,2,23BCAICD223,52.3,Pass,Medium Risk,Low
+23BCAICD225,Mohammad Suhaib,75.0,Eligible,48.0,24.0,12,59,0,0,2,23BCAICD225,50.6,Pass,Medium Risk,Low
+23BCAICD226,Moideen Aflah,75.0,Eligible,40.0,20.0,10,62,0,0,2,23BCAICD226,44.4,Fail,Medium Risk,Low
+23BCAICD227,Muhammad Adhil K V,75.0,Eligible,40.0,20.0,12,60,0,0,2,23BCAICD227,45.6,Fail,Medium Risk,Low
+23BCAICD228,Muhammed Adhil N P,75.0,Eligible,46.0,23.0,18,75,0,0,2,23BCAICD228,48.6,Fail,Medium Risk,Low
+23BCAICD229,Muhammad Ashfaq Rahman,75.0,Eligible,44.0,22.0,8,70,0,0,2,23BCAICD229,46.7,Fail,Medium Risk,Low
+23BCAICD230,Muhammed Faez,77.0,Eligible,86.0,43.0,23,76,2,1,0,23BCAICD230,74.3,Pass,Low Risk,Medium
+23BCAICD231,Muhammad Irfan,85.0,Eligible,48.0,24.0,9,81,0,0,2,23BCAICD231,53.3,Pass,Medium Risk,Low
+23BCAICD232,Muhammed K M,75.0,Eligible,48.0,24.0,12,67,0,0,2,23BCAICD232,47.7,Fail,Medium Risk,Low
+23BCAICD233,Muhammed Mubashir,75.0,Eligible,40.0,20.0,14,61,1,0,2,23BCAICD233,42.0,Fail,Medium Risk,Low
+23BCAICD234,Muhammed N K,75.0,Eligible,46.0,23.0,13,74,0,0,2,23BCAICD234,50.5,Pass,Medium Risk,Low
+23BCAICD235,Muhammed Nihal K,18.0,Not Eligible,20.0,10.0,4,50,0,0,3,23BCAICD235,15.0,Fail,High Risk,High
+23BCAICD236,Muhammad Shamil,75.0,Eligible,56.0,28.0,13,63,1,0,2,23BCAICD236,57.1,Pass,Medium Risk,Low
+23BCAICD237,Muhammed Shamil,75.0,Eligible,42.0,21.0,13,64,0,0,2,23BCAICD237,45.7,Fail,Medium Risk,Low
+23BCAICD238,Muhammed Shamil P,75.0,Eligible,40.0,20.0,9,61,1,1,2,23BCAICD238,45.3,Fail,Medium Risk,Low
+23BCAICD239,Muhammed Shazin A G,75.0,Eligible,40.0,20.0,12,58,0,1,2,23BCAICD239,43.5,Fail,Medium Risk,Low
+23BCAICD240,Muhammed Sinan O K,75.0,Eligible,42.0,21.0,12,70,1,0,2,23BCAICD240,45.4,Fail,Medium Risk,Low
+23BCAICD241,N Aman Adyanthaya,78.0,Eligible,66.0,33.0,15,82,1,0,1,23BCAICD241,63.2,Pass,Medium Risk,Medium
+23BCAICD242,Nedumbayil Dilruba,85.0,Eligible,90.0,45.0,28,75,2,1,0,23BCAICD242,81.7,Pass,Low Risk,High
+23BCAICD243,Neeha Esak,85.0,Eligible,76.0,38.0,21,82,2,1,0,23BCAICD243,75.0,Pass,Low Risk,High
+23BCAICD244,Niama Siddique,78.0,Eligible,70.0,35.0,13,70,1,1,1,23BCAICD244,64.7,Pass,Medium Risk,Medium
+23BCAICD245,Rakshan S,75.0,Eligible,40.0,20.0,12,63,1,0,2,23BCAICD245,40.6,Fail,Medium Risk,Low
+23BCAICD246,Rayan,75.0,Eligible,48.0,24.0,11,64,1,1,2,23BCAICD246,50.0,Pass,Medium Risk,Low
+23BCAICD247,Razin Fayaz Ubaid B R,75.0,Eligible,40.0,20.0,13,61,1,1,2,23BCAICD247,41.6,Fail,Medium Risk,Low
+23BCAICD248,Reeha Sadiya,75.0,Eligible,58.0,29.0,13,69,1,0,2,23BCAICD248,58.7,Pass,Medium Risk,Low
+23BCAICD249,Reesha Misri A T,75.0,Eligible,82.0,41.0,20,69,1,1,0,23BCAICD249,75.6,Pass,Low Risk,High
+23BCAICD250,Rifan Ahammed,75.0,Eligible,40.0,20.0,13,66,0,0,2,23BCAICD250,46.0,Fail,Medium Risk,Low
+23BCAICD251,Rihab C K,75.0,Eligible,52.0,26.0,16,67,1,0,2,23BCAICD251,51.1,Pass,Medium Risk,Low
+23BCAICD252,Rince Mohammed P M,75.0,Eligible,40.0,20.0,8,64,1,0,2,23BCAICD252,40.6,Fail,Medium Risk,Low
+23BCAICD253,Sahala,75.0,Eligible,78.0,39.0,19,68,1,1,0,23BCAICD253,72.7,Pass,Low Risk,Medium
+23BCAICD254,Salwa Sharief Chilmi,75.0,Eligible,52.0,26.0,13,65,1,1,2,23BCAICD254,51.5,Pass,Medium Risk,Low
+23BCAICD255,Sanya Abubaker,75.0,Eligible,64.0,32.0,15,74,0,1,1,23BCAICD255,63.1,Pass,Medium Risk,Medium
+23BCAICD256,Saviyya Shanufa,77.0,Eligible,68.0,34.0,22,75,1,0,1,23BCAICD256,66.9,Pass,Medium Risk,Medium
+23BCAICD257,Sayed Mohammed Sirath Raza,75.0,Eligible,48.0,24.0,14,62,0,0,2,23BCAICD257,51.2,Pass,Medium Risk,Low
+23BCAICD258,Shahala Sali,75.0,Eligible,50.0,25.0,10,67,0,0,2,23BCAICD258,49.3,Fail,Medium Risk,Low
+23BCAICD259,Shaheen Sulaiman,75.0,Eligible,40.0,20.0,14,69,0,0,2,23BCAICD259,42.8,Fail,Medium Risk,Low
+23BCAICD260,Shahul Hameed A,75.0,Eligible,40.0,20.0,17,57,1,0,2,23BCAICD260,45.6,Fail,Medium Risk,Low
+23BCAICD261,Shamila Shirin,75.0,Eligible,64.0,32.0,19,73,1,0,1,23BCAICD261,59.2,Pass,Medium Risk,Low
+23BCAICD262,Shayiar,75.0,Eligible,44.0,22.0,8,62,0,1,2,23BCAICD262,44.3,Fail,Medium Risk,Low
+23BCAICD263,Shazha Nafeesa O M,75.0,Eligible,54.0,27.0,13,71,0,0,2,23BCAICD263,53.6,Pass,Medium Risk,Low
+23BCAICD264,Sheik Mohammad Nazeeb Saheb,90.0,Eligible,68.0,34.0,21,77,2,1,1,23BCAICD264,73.2,Pass,Low Risk,Medium
+23BCAICD265,Sheik Ali Razeen T K,75.0,Eligible,42.0,21.0,10,56,0,0,2,23BCAICD265,46.1,Fail,Medium Risk,Low
+23BCAICD266,Shrithika,78.0,Eligible,92.0,46.0,24,69,2,1,0,23BCAICD266,81.8,Pass,Low Risk,High
+23BCAICD267,Shuhadha A S,75.0,Eligible,46.0,23.0,15,66,0,0,2,23BCAICD267,45.3,Fail,Medium Risk,Low
+23BCAICD268,Sivani S Nair,75.0,Eligible,40.0,20.0,9,66,0,1,2,23BCAICD268,44.2,Fail,Medium Risk,Low
+23BCAICD269,Snehith Vinodkumar,75.0,Eligible,68.0,34.0,17,66,1,1,1,23BCAICD269,66.0,Pass,Medium Risk,Medium
+23BCAICD270,Sumayya Zainaba,85.0,Eligible,90.0,45.0,14,85,0,0,0,23BCAICD270,81.3,Pass,Low Risk,High
+23BCAICD271,Suryapriya K,75.0,Eligible,62.0,31.0,14,61,0,0,1,23BCAICD271,59.0,Pass,Medium Risk,Low
+23BCAICD272,Thansiha B,75.0,Eligible,52.0,26.0,13,67,0,1,2,23BCAICD272,54.2,Pass,Medium Risk,Low
+23BCAICD273,U I Mohammad Hisham,75.0,Eligible,50.0,25.0,10,61,0,0,2,23BCAICD273,51.9,Pass,Medium Risk,Low
+23BCAICD274,Usman Mehefooz,75.0,Eligible,50.0,25.0,18,64,0,0,2,23BCAICD274,51.7,Pass,Medium Risk,Low
+23BCAICD275,Zuha Kadeeja A,75.0,Eligible,40.0,20.0,8,65,0,0,2,23BCAICD275,44.7,Fail,Medium Risk,Low
